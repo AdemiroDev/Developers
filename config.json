@@ -1,0 +1,7 @@
+{
+    "clientId": "756902364144861214",
+    "clientSecret": "a5DTM99FFx49C-8C2KNPnV9rc3EeYp5Z",
+    "scopes": ["identify"],
+    "token": "NzU2OTAyMzY0MTQ0ODYxMjE0.X2YmQg.4BDLDcT4RGQzWaU32B90-7pDWtY",
+    "redirectUri": "https://coffecups.glitch.me/authorize/callback"
+}

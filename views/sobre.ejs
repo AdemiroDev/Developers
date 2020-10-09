@@ -1,0 +1,90 @@
+
+<head>
+    
+     <title>Coffe Cups</title>
+  
+     <link id="favicon" rel="icon" href="https://cdn.discordapp.com/attachments/735962587904213162/736344207836577843/coffee-cups.png" type="image/x-icon">
+     <link rel="stylesheet" type="text/css" href="/index/index.css">
+     <link rel="stylesheet" type="text/css" href="/index/dropdown.css">
+    
+</head>
+  
+<body>
+    
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+<div class="wrapper">
+  
+    <div class="sidebar">
+      
+        <h2>Coffe Cups</h2>
+      
+        <ul>
+          
+                  <div class="dropdown">
+                
+                        <li><a href="/perfil"><i class="fas fa-id-badge"></i>Perfil</a></li>  
+                  
+                </div>
+          
+            <% if(!client.guilds.cache.get('756899938683715785').members.cache.get(user.id).roles.cache.has('756903242071277678')) { %>
+          
+            <% } else { %>
+          
+                <div class="dropdown">
+                
+                        <li><button type="submit" class="dropbtn">Analisador</button></li>    
+                  
+                <div class="dropdown-content">
+                  
+                        <li><a href="/analises"><i class="fas fa-id-badge"></i>Análises</a></li>
+
+                </div>
+                </div>
+          
+            <% } %>
+          
+            <li><a href="/"><i class="fas fa-home"></i>Lista de Bots</a></li>
+            <li><a href="/addbot"><i class="fas fa-list-ul"></i>Adicionar BOT</a></li>
+            <li><a href="/sobre"><i class="fas fa-tags"></i>Sobre</a></li>
+            <li><a href="/status"><i class="fas fa-tags"></i>Status</a></li>               
+        </ul> 
+      
+     
+      
+        <div class="social_media">
+          
+          <a href="https://www.youtube.com/channel/"><i class="fab fa-youtube"></i></a>
+          <a href="https://discord.gg/Z3FgSuD"><i class="fab fa-discord"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          
+          
+      </div>
+      
+    </div>
+
+  <div class="main_content">
+        
+        <div class="header">Lista de Robôs
+          
+            <!--
+
+            <form class="pesquisa" action="/resultados" method="POST">
+              
+               <input class="pesquisaI" type="text" name="resultados" placeholder="Discord Bot List" required>
+               <button class="pesquisaB" type="submit"><i class="fa fa-search"></i></button>
+              
+             </form>
+
+            -->
+      
+    </div>
+  </div>
+  </div>
+</body>
+<center><img class="userAvatar" src="https://cdn.discordapp.com/attachments/735962587904213162/736344207836577843/coffee-cups.png"></center></br></br></br></center>
+<center><p class="title" style="color:blue; font-size:30">Essa pagina está em manutenção</p></center>
+
+
+</body>
+</html>

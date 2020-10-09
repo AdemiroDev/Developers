@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap);
+
+body {
+   background-color: #651fff;
+   font-family: 'Josefin Sans';
+}
+
+.manuButton {
+  transition: 5s;
+  font-family: 'Josefin Sans';
+  background-color: #00A2F9;
+  border-radius: 10px;
+  border: none;
+  color: #651fff;
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+  height: 80px;
+  width: 450px;
+}
